@@ -59,6 +59,16 @@ Daí abre o arquivo "bashrc" ou "zshrc" e digita dentro do arquivo:
 export PATH=$PATH:/usr/local/opt/node@14/bin
 ```
 
+
+### Using TypeScript
+[Documentation](https://reactnative.dev/docs/typescript)
+
+Add TypeScript to an existing project
+```sh
+yarn add -D typescript @types/react @types/react-native
+```
+
+
 react elements
 
 ```sh
