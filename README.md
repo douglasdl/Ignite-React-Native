@@ -76,7 +76,7 @@ import
     React, {
     useState,
     useEffect,
-    } from 'react';
+} from 'react';
 ```
 
 react-native elements
@@ -84,16 +84,16 @@ react-native elements
 ```sh
 import {
     View,
-    Text,
     Fragment,
-    StyleSHeet,
     SafeAreaView,
+    Text,
+    StyleSheet,
     TextInput,
     Platform,
     TouchableOpacity,
+    TouchableOpacityProps,
     ScrollView,
     FlatList,
     StatusBar,
-
-    } from 'react-native';
+} from 'react-native';
 ```
