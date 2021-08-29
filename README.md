@@ -65,6 +65,7 @@ react elements
 import
     React, {
     useState,
+    useEffect,
     } from 'react';
 ```
 
@@ -80,5 +81,8 @@ import {
     TextInput,
     Platform,
     TouchableOpacity,
+    ScrollView,
+    FlatList,
+
     } from 'react-native';
 ```
