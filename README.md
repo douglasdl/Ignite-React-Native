@@ -83,6 +83,7 @@ import {
     TouchableOpacity,
     ScrollView,
     FlatList,
+    StatusBar,
 
     } from 'react-native';
 ```

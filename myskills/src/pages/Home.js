@@ -38,38 +38,39 @@ export function Home() {
 
     return (
         <View style={styles.container}>
-        <Text 
-            style={styles.title}
-        >
-            Welcome, Douglas
-        </Text>
-        <Text style={styles.greetings}>{greeting}</Text>
+            
+            <Text 
+                style={styles.title}
+            >
+                Welcome, Douglas
+            </Text>
+            <Text style={styles.greetings}>{greeting}</Text>
 
-        <TextInput
-            style={styles.input}
-            placeholder="New skill"
-            placeholderTextColor="#555"
-            onChangeText={setNewSkill}
-        />
+            <TextInput
+                style={styles.input}
+                placeholder="New skill"
+                placeholderTextColor="#555"
+                onChangeText={setNewSkill}
+            />
 
-        <Button 
-            onPress={handleAddNewSkill} 
-        />
+            <Button 
+                onPress={handleAddNewSkill} 
+            />
 
-        <Text 
-            style={[styles.title, {marginVertical: 50}]}
-        >
-            My Skills
-        </Text>
+            <Text 
+                style={[styles.title, {marginVertical: 50}]}
+            >
+                My Skills
+            </Text>
 
 
-        <FlatList 
-            data={mySkills}
-            keyExtractor={item => item}
-            renderItem={({ item }) => (
-              <SkillCard skill={item} />
-            )}
-        />
+            <FlatList 
+                data={mySkills}
+                keyExtractor={item => item}
+                renderItem={({ item }) => (
+                <SkillCard skill={item} />
+                )}
+            />
         
       </View>
   );
